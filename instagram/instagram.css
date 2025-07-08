@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.box {
+    background: white;
+    border: 1px solid gray;
+    padding: 40px 30px;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+
+.login2 {
+    color: blue;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.login1 {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login3 {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: "Malgun Gothic", Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.login3 a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.login3 a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.line hr {
+    flex: 1px;
+    border: none;
+    height: 1px;
+    background-color: gray;
+}
+
+.line span {
+    margin: 0 10px;
+    color: gray;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+
